@@ -20,11 +20,12 @@ library(distr)
 library(distrEx)
 
 #working directory:
-setwd("~/GitHub/Biodiversity")
+setwd("~/github/Biodiversity")
 #h ome working directory:
 #setwd("~/Biodiversity/Biodiversity")
 
 #load land shapefile
+list.files()
 land<- readShapePoly('land.shp')
 
 #####SET UP DATA###############################################
